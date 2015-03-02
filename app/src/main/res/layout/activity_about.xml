@@ -23,6 +23,6 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:padding="15dp"
-        android:text="@string/text_about" />
+        android:text= "sende birşeyler yap" />
     
 </RelativeLayout>
