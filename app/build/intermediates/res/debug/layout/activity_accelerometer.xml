@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:keepScreenOn="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/info_text" />
+       
+    <TextView
+        android:id="@+id/mRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/mLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mRight"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mLeft"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewY"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+    
+     <TextView
+        android:id="@+id/textViewCmdSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewX"
+        android:layout_alignParentLeft="true"
+        android:text="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Right"
+        android:id="@+id/right_info_text"
+        android:layout_gravity="center"
+        android:layout_marginRight="26dp"
+        android:layout_alignTop="@+id/info_text"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Left"
+        android:id="@+id/left_info_text"
+        android:layout_alignTop="@+id/info_text"
+        android:layout_toRightOf="@+id/textViewCmdSend"
+        android:layout_marginLeft="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="forward"
+        android:id="@+id/forward_info_text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Backward"
+        android:id="@+id/backward_info_text"
+        android:layout_alignTop="@+id/textViewY"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+<!-- From: file:/Users/halilkeskin/AndroidStudioProjects/MainActivity/app/src/main/res/layout/activity_accelerometer.xml -->

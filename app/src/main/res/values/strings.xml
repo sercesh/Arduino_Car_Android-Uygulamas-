@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">Arduino CAR</string>
+    <string name="app_name_version">Arduino CAR </string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="title_activity_main">Arduino CAR</string>
+    <string name="title_activity_accelerometer">Accelerometer control</string>   
+    <string name="title_activity_buttons">Button control</string>
+    <string name="title_activity_about">About</string>        
+    
+    <string name="info_text">Tilt your Android device</string>
+    <string name="info_text_wheel">Pinch speed\'s slider and tilt device left&#47;right for turning</string>    
+    
+    <string name="btn_accel">Accelerometer control</string>    
+    <string name="btn_button">Button control</string>
+    <string name="btn_about">About</string>
+    
+    <string name="forward">forward</string>
+    <string name="backward">backward</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
+    	
+	<string name="text_about">Halil Keskin Enginering Project</string>
+	<string name="mcu_textInfo1">Settings for the MCU. The parameters are transferred and stored in the MCU EEPROM memory</string>
+	<string name="mcu_textStop">Stop when the connection is lost:</string>
+	<string name="mcu_cBox_AutoOFF">On</string>
+	<string name="mcu_after_sec">After (second):</string>
+	<string name="mcu_flash_Read">Read data</string>
+	<string name="mcu_flash_Write">Write data</string>
+	
+	<string name="mcu_error_range">Enter the correct value (0.01 &#8211; 99.9)</string>
+	<string name="err_data_entry">Data entry error</string>
+	<string name="flash_success">Data successfully written in Flash</string>
+	<string name="error_get_data">Data receive error</string>
+	
+	<string name="default_MAC">98:D3:31:B4:4B:EF</string>
+    <string name="default_xR">5</string>
+    <string name="default_xMax">7</string>
+    <string name="default_yMax">5</string>  
+    <string name="default_yThreshold">50</string> 
+    <string name="default_pwmMax">255</string>
+    <string name="default_commandLeft">L</string>
+    <string name="default_commandRight">R</string>
+    <string name="default_pwmBtnMotorLeft">255</string>
+    <string name="default_pwmBtnMotorRight">255</string>
+    <string name="default_xRperc">60</string>
+	
+</resources>

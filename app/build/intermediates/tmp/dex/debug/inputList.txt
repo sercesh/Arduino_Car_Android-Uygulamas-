@@ -1,0 +1,2 @@
+/Users/halilkeskin/AndroidStudioProjects/MainActivity/app/build/intermediates/classes/debug
+/Users/halilkeskin/AndroidStudioProjects/MainActivity/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-5b91aa7f1a23eff47466e4d8b559d15f8d4c395b.jar
